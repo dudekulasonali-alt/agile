@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 class Operation(ABC):
-    @abstractmethod
+    @git statusabstractmethod
     def execute(self, a,b):
         pass
 class Add(Operation):
